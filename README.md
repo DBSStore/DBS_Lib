@@ -1,20 +1,13 @@
-DBS_AVRIII [![Build Status](https://travis-ci.com/adafruit/Adafruit_MCP3008.svg?branch=master)](https://travis-ci.com/adafruit/Adafruit_MCP3008)
-================
-
+DBS_AVRIII [![Build Status]
 <a href="https://s3-ap-southeast-1.amazonaws.com/img-in-th/c243243ea0b7c4d6e20adb6b2b0b14a7.jpg" width="500px"></a>
-
-This is the Adafruit MCP3008 - 8-Channel 10-Bit ADC With SPI Interface Library.
-
-Tested for the following boards using pins shown.
-
-MCP3008 | UNO | FEATHER HUZZAH<sup>1</sup> | FEATHER 32u4 | FEATHER M0
-:---: | :---: | :---: | :---: | :---:
-VDD | 5V | 3V | 3V | 3V 
-VREF | 5V | 3V | 3V | 3V
-AGND | GND | GND | GND | GND
-CLK | 13 | SCK (14) | SCK | SCK
-DOUT | 12 | MI (12) | MISO | MISO
-DIN | 11 | MO (13) | MOSI | MOSI
-CS | 10 | any<sup>2</sup> (15) | any<sup>2</sup> | any<sup>2</sup>
-DGND | GND | GND | GND | GND
-
+Spec
+-Using ATmega328P microcontroller (Arduino NANO v3)
+- Motor Driver TB6612FNG Designed By Sopon (Toshiba Japan) can drive 2 motors at 3.2A (peak) with the indicator light of the motor rotation
+- 1 push button like Pulldown
+- 1 KNOB, Analog Value: 0 - 1023
+- I2C type OLED screen
+- Servo 5, supply 5 Volt
+- 1 buster
+- Analog Ch Ch sensor 10 bit, the value is 0 - 1023
+- Power 7 - 15 Volt
+- There is a circuit to prevent fault connection and status lights. Error
