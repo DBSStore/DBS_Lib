@@ -1,5 +1,7 @@
 DBS_AVRIII [![Build Status]
+
 <a href="https://s3-ap-southeast-1.amazonaws.com/img-in-th/c243243ea0b7c4d6e20adb6b2b0b14a7.jpg" width="500px"></a>
+
 Spec
 -Using ATmega328P microcontroller (Arduino NANO v3)
 - Motor Driver TB6612FNG Designed By Sopon (Toshiba Japan) can drive 2 motors at 3.2A (peak) with the indicator light of the motor rotation
