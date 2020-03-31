@@ -1,4 +1,4 @@
-DBS_AVRIII [![Build Status]
+DBS_AVRIII 
 
 <a href="https://s3-ap-southeast-1.amazonaws.com/img-in-th/c243243ea0b7c4d6e20adb6b2b0b14a7.jpg" width="500px"></a>
 
