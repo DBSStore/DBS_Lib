@@ -1,7 +1,7 @@
 DBS_AVRIII [![Build Status](https://travis-ci.com/adafruit/Adafruit_MCP3008.svg?branch=master)](https://travis-ci.com/adafruit/Adafruit_MCP3008)
 ================
 
-<a href="https://s3-ap-southeast-1.amazonaws.com/img-in-th/c243243ea0b7c4d6e20adb6b2b0b14a7.jpg?raw=true" width="500px"></a>
+<a href="https://s3-ap-southeast-1.amazonaws.com/img-in-th/c243243ea0b7c4d6e20adb6b2b0b14a7.jpg" width="500px"></a>
 
 This is the Adafruit MCP3008 - 8-Channel 10-Bit ADC With SPI Interface Library.
 
@@ -18,6 +18,3 @@ DIN | 11 | MO (13) | MOSI | MOSI
 CS | 10 | any<sup>2</sup> (15) | any<sup>2</sup> | any<sup>2</sup>
 DGND | GND | GND | GND | GND
 
-<sup>1</sup>also works for non-Feather HUZZAH, use (XX) pins
-
-<sup>2</sup>use any available digital pin
